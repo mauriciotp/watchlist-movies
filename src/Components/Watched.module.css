@@ -1,0 +1,23 @@
+.watched {
+  margin-top: 1.5rem;
+}
+
+.watchListHeader {
+  display: flex;
+  justify-content: space-between;
+  color: var(--primary);
+}
+
+.count {
+  background-color: var(--secondary);
+  padding: 0.5rem 0.8rem;
+  border-radius: 1.5rem;
+  font-weight: 600;
+}
+
+.moviesWrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}

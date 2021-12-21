@@ -1,0 +1,52 @@
+.resultCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.resultCard img {
+  border-radius: 5px;
+  max-width: 75px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--primary);
+}
+
+.header h2 {
+  font-size: 1.2rem;
+}
+
+.header h3 {
+  font-weight: 400;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+  color: var(--primary);
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: var(--secondary);
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  background-color: rgba(33, 208, 122, 0.8);
+}
+
+.button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}

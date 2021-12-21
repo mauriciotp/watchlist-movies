@@ -1,0 +1,27 @@
+.add {
+  margin-top: 1.5rem;
+}
+
+.addWrapper {
+  margin: 0 auto;
+  max-width: 48rem;
+}
+
+.search {
+  width: 100%;
+  border: none;
+  background-color: var(--primary);
+  outline: none;
+  color: var(--white);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+}
+
+.results {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

@@ -5,10 +5,12 @@ import Header from './Components/Header';
 import Watchlist from './Components/Watchlist';
 import Watched from './Components/Watched';
 import Add from './Components/Add';
+import './lib/fontawesome/css/all.min.css';
+import { GlobalProvider } from './context/GlobalState';
 
 const App = () => {
   return (
-    <>
+    <GlobalProvider>
       <BrowserRouter>
         <Header />
         <Routes>
@@ -17,7 +19,7 @@ const App = () => {
           <Route path="/add" element={<Add />} />
         </Routes>
       </BrowserRouter>
-    </>
+    </GlobalProvider>
   );
 };
 

@@ -1,0 +1,11 @@
+.movie {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.movie img {
+  width: 100%;
+  transition: 0.2s ease;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
